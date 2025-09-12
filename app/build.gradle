@@ -9,7 +9,9 @@ android {
     buildFeatures {
         dataBinding true
     }
-
+//1.빌드 특징 설정
+//dateBinding 기능을 현재 프로젝트에서 사용하겠다.
+// 2. 창의 상단에 표시암호 "Sync Now"를 클릭해야 한다. + 변경 내용이 적용된다.
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 36
